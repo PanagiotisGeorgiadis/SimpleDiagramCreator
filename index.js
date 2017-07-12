@@ -1,5 +1,4 @@
 var express = require("express");
-var router = express.Router();
 var routerHelperClass = require("./utils/RouterHelperClass.js");
 
 var simpleDiagramApp = express();
@@ -25,4 +24,3 @@ simpleDiagramApp.get("/", function(request, response) {
 });
 
 simpleDiagramApp.listen(3000);
-
